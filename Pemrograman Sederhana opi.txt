@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "=========Tugas Pemrograman Dasar Ovy=========" << "\n";
+    cout << "Pemrograman Sederhana Menghitung Luas Persegi Panjang" << "\n";
+    float panjang, lebar, luas;
+
+    // Masukkan nilai panjang dan lebar
+    cout << "Masukkan panjang persegi panjang: ";
+    cin >> panjang;
+
+    cout << "Masukkan lebar persegi panjang: ";
+    cin >> lebar;
+
+    // Menghitung luas
+    luas = panjang * lebar;
+
+    // Menampilkan hasil
+    cout << "Luas persegi panjang adalah: " << luas << endl;
+
+    return 0;
+}
